@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "facts.os_release > 8 and facts.installed_packages contains ['qla3']",
+"description": "The qla3xxx driver has been deprecated in RHEL8. The driver will likely not be supported in future major releases of this product, and thus it is not recommended for new deployments.",
+"isEnabled": true,
+"name": "Ensure qla3xxx driver is not installed (deprecated)"
+}

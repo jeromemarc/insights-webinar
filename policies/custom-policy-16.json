@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "facts.os_release > 8 and not (facts.installed_packages contains ['libsecret'] and not facts.installed_packages contains ['libgnome-keyring'])",
+"description": "The libgnome-keyring library has been deprecated in favor of the libsecret library, as libgnome-keyring is not maintained upstream, and does not follow the necessary cryptographic policies for RHEL8. The new libsecret library is the replacement that follows the necessary security standards.",
+"isEnabled": true,
+"name": "Ensure libsecret is installed in place of libgnome-keyring (deprecated)"
+}

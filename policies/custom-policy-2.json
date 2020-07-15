@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "(facts.os_release >=7 and facts.os_release <8 and not facts.enabled_services contains 'ntpd') or (facts.os_release >=8 and not facts.enabled_services contains 'chronyd')",
+"description": "This policy ensures time synchronization is installed on the system.",
+"isEnabled": true,
+"name": "Ensure NTP/Chrony daemons are enabled"
+}

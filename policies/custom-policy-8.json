@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "facts.cloud_provider in ['alibaba', 'aws', 'azure', 'google'] and facts.running_processes contains ['cupsd']",
+"description": "This policy detects if an instance is running on a public cloud with cups service installed.",
+"isEnabled": true,
+"name": "Ensure cups service is not installed on public cloud instances"
+}

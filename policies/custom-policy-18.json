@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "facts.os_release > 8 and (facts.installed_packages contains ['389-ds-base-legacy-tools'] or facts.installed_packages contains ['authd'] or facts.installed_packages contains ['custodia'] or facts.installed_packages contains ['hostname'] or facts.installed_packages contains ['libidn'] or facts.installed_packages contains ['net-tools'] or facts.installed_packages contains ['network-scripts'] or facts.installed_packages contains ['nss-am-ldapd'] or facts.installed_packages contains ['sendmail'] or facts.installed_packages contains ['yp-tools'] or facts.installed_packages contains ['ypbind'] or facts.installed_packages contains ['ypserv'])",
+"description": "The following packages have been deprecated and will probably not be included in a future major release of Red Hat Enterprise Linux 8 (RHEL8): - 389-ds-base-legacy-tools - authd - custodia - hostname - libidn - net-tools - network-scripts - nss-pam-ldapd - sendmail - yp-tools - ypbind - ypserv",
+"isEnabled": true,
+"name": "Ensure deprecated packages are not installed on RHEL8"
+}

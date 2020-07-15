@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "not (facts.enabled_services contains ['auditd'] and facts.running_processes contains ['auditd'])",
+"description": "Audit service must be running.",
+"isEnabled": true,
+"name": "Ensure auditd is enabled"
+}

@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "facts.installed_packages contains ['wireshark']",
+"description": "This policy checks if the wireshark network traffic analyzer is installed on our systems.",
+"isEnabled": true,
+"name": "Ensure wireshark is not installed on any systems test"
+}

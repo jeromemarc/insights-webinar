@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "not (facts.installed_packages contains ['openscap-scanner'])",
+"description": "This policy detects if openscap is installed.",
+"isEnabled": true,
+"name": "Ensure openscap is installed"
+}

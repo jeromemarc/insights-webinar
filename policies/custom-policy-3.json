@@ -1,0 +1,7 @@
+{
+"actions": "email;webhook",
+"conditions": "facts.os_release < 8.1",
+"description": "This policy detects if systems still run an outdated version of our standard operating systems based on RHEL8.1.",
+"isEnabled": true,
+"name": "Ensure all systems are updated to latest RHEL8.1 release"
+}
