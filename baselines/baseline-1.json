@@ -1,77 +1,22 @@
-[
-        {
-                "baseline_facts" : [
-                        {
-                                "name" : "arch",
-                                "value" : "x86_64"
-                        },
-                        {
-
-                                "name" : "infrastructure_type",
-                                "value" : "physical"
-                        },
-                        {
-                                "name" : "os_release",
-                                "value" : "7.6"
-                        },
-                        {
-
-                                "name" : "os_kernel_version",
-                                "value" : "3.10.0"
-                        },
-                        {
-                                "name" : "installed_packages.glibc",
-                                "value" : "2.17-260.el7_6.7"
-                        },
-                        {
-
-                                "name" : "installed_packages.glibc-common",
-                                "value" : "2.17-260.el7_6.7"
-                        }
-                ],
-                "display_name" : "System Baseline"
-        },
-	{
-		"baseline_facts" : [
-			{
-				"name" : "arch",
-				"value" : "x86_64"
-			},
-			{
-
-				"name" : "infrastructure_type",
-				"value" : "physical"
-			}
-		],
-		"display_name" : "Hardware Baseline"
-	},
-        {
-                "baseline_facts" : [
-                        {
-                                "name" : "os_release",
-                                "value" : "7.6"
-                        },
-                        {
-
-                                "name" : "os_kernel_version",
-                                "value" : "3.10.0"
-                        }
-                ],
-                "display_name" : "OS Baseline"
-	},
-        {
-                "baseline_facts" : [
-                        {
-                                "name" : "installed_packages.glibc",
-                                "value" : "2.17-260.el7_6.7"
-                        },
-                        {
-
-                                "name" : "installed_packages.glibc-common",
-                                "value" : "2.17-260.el7_6.7"
-                        }
-                ],
-                "display_name" : "Software Baseline"
-        }
-]
-	
+{
+   "display_name": "demo baseline",
+   "baseline_facts": [
+     {
+    	"name": "fact name 1",
+    	"value": "fact value 1"
+     },
+     {
+    	"name": "fact name 2",
+    	"value": "fact value 2"
+     },
+     {
+        "name": "category 1",
+        "values": [
+ 	  {
+             "name": "sub fact name 1",
+             "value": "sub fact value 1"
+       	  }
+        ]
+     }
+   ]
+}
