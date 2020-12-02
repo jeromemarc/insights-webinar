@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "facts.os_release > 8 and facts.installed_packages contains ['network-scripts']",
 "description": "Network scripts are deprecated in Red Hat Enterprise Linux 8 (RHEL8).",
 "isEnabled": true,
