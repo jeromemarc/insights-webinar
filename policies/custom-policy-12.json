@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "not (facts.enabled_services contains ['usbguard'] and facts.running_processes contains ['usbguard'])",
 "description": "USBGuard service must be running.",
 "isEnabled": true,
