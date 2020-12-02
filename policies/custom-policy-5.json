@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "facts.cloud_provider in ['alibaba', 'aws', 'azure', 'google'] and not tags.Owner",
 "description": "This policy detects if an instance is running on a public cloud with no Owner value set (Owner tag).",
 "isEnabled": true,
