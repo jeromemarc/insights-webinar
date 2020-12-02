@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "tags.display_name",
 "description": "This policy triggers whenever a system is checked-in.",
 "isEnabled": true,
