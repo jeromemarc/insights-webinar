@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "not (facts.enabled_services contains ['fapolicyd'] and facts.running_processes contains ['fapolicyd'])",
 "description": "Application whitelisting service must be running.",
 "isEnabled": true,
