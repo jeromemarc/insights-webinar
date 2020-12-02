@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "facts.infrastructure_type = 'virtual' and facts.infrastructure_vendor = 'kvm' and facts.os_release > 8 and facts.kernel_modules contains ['cirrus']",
 "description": "With a future major update of Red Hat Enterprise Linux 8 (RHEL8), the Cirrus VGA GPU device will no longer be supported in KVM virtual machines. Therefore, Red Hat recommends using the stdvga, virtio-vga, or qxl devices instead of Cirrus VGA.",
 "isEnabled": true,
