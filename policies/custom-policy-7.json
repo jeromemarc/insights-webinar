@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "not (facts.enabled_services contains ['firewalld'] and facts.running_processes contains ['firewalld'])",
 "description": "Firewall service must be installed and running.",
 "isEnabled": true,
