@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "facts.cloud_provider in ['alibaba', 'aws', 'azure', 'google'] and (facts.number_of_cpus >=8 or facts.number_of_sockets >= 2)",
 "description": "This policy detects if an instance running on Alibaba, AWS, Azure or Google are running with CPU hardware higher than our allowed limit.",
 "isEnabled": true,
