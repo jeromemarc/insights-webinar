@@ -1,5 +1,5 @@
 {
-"actions": "email;webhook",
+"actions": "notification",
 "conditions": "facts.os_release > 8 and (facts.installed_packages contains ['dl2k'] or facts.installed_packages contains ['dnet'] or facts.installed_packages contains ['ethoc'] or facts.installed_packages contains ['dlci'])",
 "description": "The dl2k, dnet, ethoc, and dlci drivers have been deprecated in RHEL8. The drivers will likely not be supported in future major releases of this product, and thus they are not recommended for new deployments.",
 "isEnabled": true,
